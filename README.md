@@ -61,8 +61,11 @@ M870 是一款多人语音聊天软件。建一个房间，把邀请发给朋友
 **画面卡、糊，或者对方提示带宽不足？**
 共享时选低一点的分辨率或帧率，或者在共享设置里选「流畅优先」。成员列表里能看到每个人实际收到的画质和原因。
 
-**连不上对方，或者一直显示「中继」？**
-有些网络（手机热点、公司网络）没法直连，会自动经服务器中转，这时画质会受限制。条件允许的话换一个网络试试。
+**连不上对方？**
+画面和声音需要在双方之间直接连通。有些网络（手机热点、公司或学校网络）不允许直连，换一个网络试试，比如从手机热点换成家里的宽带。房间里点 **更多 → 连接诊断** 可以看到连接情况。
+
+**进不了房间、一直显示正在连接？**
+M870 默认使用公共信令服务器牵线，偶尔会不稳定。可以在 **设置 → 网络** 里换一个服务器再试；同一个房间的人要选同一个服务器。
 
 **共享游戏时画面是黑的？**
 全屏独占模式的游戏可能抓不到画面。把游戏改成「无边框窗口」，或者共享「整个屏幕」。
@@ -143,8 +146,11 @@ To update, download the new installer and install over the old version. Your acc
 **The picture stutters, looks blurry, or a viewer has low bandwidth?**
 Pick a lower resolution or frame rate, or choose "Smoothness first" (流畅优先) in the share settings. The member list shows what each person actually receives and why.
 
-**Can't connect, or it keeps showing "relay" (中继)?**
-Some networks (mobile hotspots, corporate networks) block direct connections, so traffic is relayed through a server and quality is limited. Try another network if you can.
+**Can't connect to someone?**
+Video and audio need a direct connection between you. Some networks (mobile hotspots, office or campus networks) block direct connections; try another network, for example home broadband instead of a hotspot. **More → Connection diagnostics** (更多 → 连接诊断) in a room shows the connection details.
+
+**Can't enter a room, or it keeps connecting?**
+M870 uses a public signaling server by default to introduce members, which is occasionally unstable. Pick another server in **Settings → Network** (设置 → 网络) and try again; everyone in the same room must use the same server.
 
 **A shared game shows a black screen?**
 Games in exclusive fullscreen mode may not be capturable. Switch the game to borderless windowed mode, or share the whole screen.
