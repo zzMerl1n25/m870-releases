@@ -8,17 +8,30 @@
 
 ## 中文
 
-M870 是一个"线上网吧"：小房间里的几个人互相看屏幕、开黑、语音聊天、一起看视频。画面和声音点对点直连，延迟低，也不经过别人的服务器。
+M870 是一款多人语音聊天软件。建一个房间，把邀请发给朋友，大家就能语音和文字聊天，还能视频通话、共享屏幕、一起看视频。开黑、开会、群聊、一起自习，都可以在一个房间里完成。
 
-### 能做什么
+画面和声音在成员之间点对点直连，延迟低，内容也不经过别人的服务器。
 
-- **互相看屏幕**：共享整个屏幕或某个游戏窗口，最高 1440P / 60 FPS。可以只带上游戏的声音，不会把队友的语音传回去。
-- **直播中随时调整**：共享过程中能改分辨率、帧率、画质取舍，也能换成别的窗口或声音，观众不用重新进房间。
-- **语音和聊天**：带降噪和人声增强；每个人的音量可以单独调；房间内文字聊天端到端加密。
-- **视频通话**：打开摄像头，同时共享屏幕时以小窗显示。
-- **一起看**：房间里内置浏览器，一个人打开视频网页，大家的播放进度自动同步。
-- **录像**：把自己或队友的画面录成 MP4。
-- **房间**：开黑、聊天、会议、学习、一起看等多种类型。公开房间所有人都能看到并加入，私密房间凭房间码加入，都可以设密码。
+### 适合这些场景
+
+- **开黑**：边玩边语音，互相看游戏画面；可以只共享游戏的声音，队友的说话声不会被传回去。
+- **会议**：开摄像头视频通话，共享屏幕或某个窗口来讲解，需要时录下来。
+- **群聊**：几个朋友挂在房间里语音聊天，也可以打字。
+- **学习**：一起自习，共享屏幕讲题或对答案。
+- **一起看**：一个人打开视频网页，所有人的播放进度自动同步。
+
+### 功能
+
+- **语音**：降噪（关 / 标准 / 强）、人声增强、回声消除；麦克风和耳机可以单独选择；每个人的音量可以分别调。
+- **文字聊天**：房间内的消息端到端加密。
+- **视频通话**：摄像头 360P～1080P，同时共享屏幕时摄像头以小窗显示。
+- **屏幕共享**：
+  - 共享整个屏幕或某个窗口，最高 1440P / 60 FPS。
+  - 声音可以选几个程序，也可以选整个系统声音。
+  - 共享中能随时改分辨率、帧率和画质取舍，或换成别的窗口和声音，大家不用重新进房间。
+- **一起看**：房间里内置浏览器，播放、暂停、拖进度、换视频，所有人同步。
+- **录像**：把自己或别人的画面录成 MP4。
+- **房间**：开黑、聊天、会议、学习、一起看等多种类型。公开房间会出现在房间列表里，任何人都能加入；私密房间凭房间码加入。两种都可以设密码。
 - **免注册账号**：第一次打开自动生成账号。导出恢复码后，换电脑也能用同一个账号。
 
 ### 系统要求
@@ -41,7 +54,7 @@ M870 是一个"线上网吧"：小房间里的几个人互相看屏幕、开黑�
 1. 点 **创建房间**，选择房间类型和公开 / 私密，进入房间。
 2. 点侧栏里的 **复制邀请**，把邀请文字发给朋友。
 3. 朋友在 M870 里点 **加入房间**，把整段邀请文字粘贴进去，房间码和密码会自动识别。
-4. 进房后点底部的 **共享屏幕**，选择屏幕或游戏窗口，以及要不要带声音。
+4. 进房后点底部的麦克风按钮开始说话；想给大家看画面时，点 **共享屏幕**，选择屏幕或窗口，以及要不要带声音。
 
 ### 常见问题
 
@@ -51,7 +64,7 @@ M870 是一个"线上网吧"：小房间里的几个人互相看屏幕、开黑�
 **连不上对方，或者一直显示「中继」？**
 有些网络（手机热点、公司网络）没法直连，会自动经服务器中转，这时画质会受限制。条件允许的话换一个网络试试。
 
-**游戏画面是黑的？**
+**共享游戏时画面是黑的？**
 全屏独占模式的游戏可能抓不到画面。把游戏改成「无边框窗口」，或者共享「整个屏幕」。
 
 **听不到共享的声音？**
@@ -76,17 +89,30 @@ M870 免费供个人下载和使用。本仓库只发布安装包，不是开源
 
 ## English
 
-M870 is an "online internet café": a few people in a small room watch each other's screens, game together, voice chat and watch videos together. Video and audio go peer-to-peer with low latency and never pass through anyone else's server.
+M870 is a group voice chat app. Create a room, send the invite to your friends, and everyone can talk by voice and text, make video calls, share screens and watch videos together. Gaming, meetings, group chats and study sessions all happen in one room.
 
-### What it does
+Video and audio go peer-to-peer between members with low latency, and the content never passes through anyone else's server.
 
-- **Watch each other's screens**: share a whole screen or a single game window, up to 1440P / 60 FPS. You can share just the game's audio, without sending teammates' voices back to them.
-- **Adjust while live**: change resolution, frame rate and the quality trade-off during a share, or switch to another window or audio source, without viewers having to rejoin.
-- **Voice and chat**: noise suppression and voice enhancement, separate volume for each person, and end-to-end encrypted text chat in the room.
-- **Video calls**: turn on your camera; it shows as picture-in-picture while you share your screen.
-- **Watch together**: a built-in browser in the room. One person opens a video page and everyone's playback stays in sync.
-- **Recording**: record your own or a teammate's stream to MP4.
-- **Rooms**: gaming, chat, meeting, study, watch together and more. Public rooms are visible to everyone; private rooms are joined with a room code. Both can have a password.
+### Made for
+
+- **Gaming**: talk while you play and watch each other's game screens. You can share only the game's audio, so teammates' voices are not sent back to them.
+- **Meetings**: video calls with your camera, share a screen or a single window to present, and record when needed.
+- **Group chat**: hang out in a room with friends over voice, or type.
+- **Studying**: study together and share your screen to go through problems or compare answers.
+- **Watch together**: one person opens a video page and everyone's playback stays in sync.
+
+### Features
+
+- **Voice**: noise suppression (off / standard / strong), voice enhancement and echo cancellation; choose your microphone and headphones; set each person's volume separately.
+- **Text chat**: room messages are end-to-end encrypted.
+- **Video calls**: camera from 360P to 1080P, shown as picture-in-picture while you share your screen.
+- **Screen sharing**:
+  - Share a whole screen or a single window, up to 1440P / 60 FPS.
+  - For audio, pick one or more apps, or the whole system.
+  - While sharing, change resolution, frame rate and the quality trade-off at any time, or switch to another window or audio source, without anyone having to rejoin.
+- **Watch together**: a built-in browser in the room; play, pause, seek and video changes stay in sync for everyone.
+- **Recording**: record your own or someone else's stream to MP4.
+- **Rooms**: gaming, chat, meeting, study, watch together and more. Public rooms appear in the room list and anyone can join; private rooms are joined with a room code. Both can have a password.
 - **No sign-up**: an account is created the first time you open the app. Export a recovery code to use the same account on another computer.
 
 ### Requirements
@@ -110,7 +136,7 @@ To update, download the new installer and install over the old version. Your acc
 1. Click **Create room** (创建房间), choose a room type and public / private, and enter the room.
 2. Click **Copy invite** (复制邀请) in the side panel and send the text to your friends.
 3. Your friends click **Join room** (加入房间) in M870 and paste the whole invite; the room code and password are filled in automatically.
-4. In the room, click **Share screen** (共享屏幕) at the bottom and pick a screen or game window, and whether to include audio.
+4. In the room, click the microphone button at the bottom to start talking. To show your screen, click **Share screen** (共享屏幕) and pick a screen or window, and whether to include audio.
 
 ### FAQ
 
@@ -120,7 +146,7 @@ Pick a lower resolution or frame rate, or choose "Smoothness first" (流畅优�
 **Can't connect, or it keeps showing "relay" (中继)?**
 Some networks (mobile hotspots, corporate networks) block direct connections, so traffic is relayed through a server and quality is limited. Try another network if you can.
 
-**The game shows a black screen?**
+**A shared game shows a black screen?**
 Games in exclusive fullscreen mode may not be capturable. Switch the game to borderless windowed mode, or share the whole screen.
 
 **Can't hear the shared audio?**
